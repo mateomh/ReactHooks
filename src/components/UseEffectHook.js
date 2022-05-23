@@ -36,6 +36,11 @@ const UseEffectHook = () => {
 
   useEffect(()=> {
     console.log("State changed");
+
+    // the use effect can return a callback to be run when the use effect unmounts
+    return () =>{
+      console.log("unmounted use effect");
+    }
   }, [state]);
 
   return (
