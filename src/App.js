@@ -5,11 +5,14 @@ function App() {
   const [count, setCount] = useState(0);
   
   const handleAdd = () => {
-    setCount(count+1);
+    setCount((prev) => prev+1);
+    setCount((prev) => prev+1);
+    console.log(count);
   }
 
   const handleSubstract = () => {
-    setCount(count-1);
+    setCount((prev) => prev-1);
+    console.log(count);
   }
 
   return (
