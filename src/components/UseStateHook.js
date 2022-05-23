@@ -1,9 +1,7 @@
 import { useState } from 'react';
 const UseStateHook = () => {
-  const [count, setCount] = useState({
-    num: 0,
-    id: "abcd"
-  });
+  const [count, setCount] = useState(0);
+  const [id, setId] = useState("abcd");
   
   const handleAdd = () => {
     setCount((prev) => {
