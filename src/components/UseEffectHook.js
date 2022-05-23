@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 const UseEffectHook = () => {
   const [count,setCount] = useState(0);
+  const [state,setState] = useState(false);
   
   const handleAdd = () => {
     setCount((prev) => prev + 1)
@@ -11,6 +12,10 @@ const UseEffectHook = () => {
   const handleSubstract = () => {
     setCount((prev) => prev - 1)
     console.log(count);
+  }
+
+  const handleState = () => {
+    setState(!state);
   }
 
 
@@ -24,11 +29,21 @@ const UseEffectHook = () => {
     console.log("component re-render");
   });
 
+  // runs when the dependecy indicated in the array changes
+  useEffect(()=> {
+    console.log("Count changed");
+  }, [count]);
+
+  useEffect(()=> {
+    console.log("State changed");
+  }, [state]);
+
   return (
     <div className="App">
       <button onClick={handleSubstract}>-</button>
       <span>{count}</span>
       <button onClick={handleAdd}>+</button>
+      <button onClick={handleState}>Change state</button>
     </div>
   );
 }
