@@ -4,28 +4,21 @@ const UseStateHook = () => {
   const [id, setId] = useState("abcd");
   
   const handleAdd = () => {
-    setCount((prev) => {
-      return(
-        {...prev, num: prev.num + 1}
-      )
-    });
+    setCount((prev) => prev + 1)
     console.log(count);
   }
 
   const handleSubstract = () => {
-    setCount((prev) => {
-      return(
-        {...prev, num: prev.num - 1}
-      )
-    });
+    setCount((prev) => prev - 1)
     console.log(count);
   }
 
   return (
     <div className="App">
       <button onClick={handleSubstract}>-</button>
-      <span>{count.num}</span>
+      <span>{count}</span>
       <button onClick={handleAdd}>+</button>
+      <span>{id}</span>
     </div>
   );
 }
