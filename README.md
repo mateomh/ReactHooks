@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Hooks-informational) ![](https://img.shields.io/badge/React-9cf)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# REACT HOOKS
 
-## Available Scripts
+> This repo is to illustrate how some react hooks are used.
 
-In the project directory, you can run:
 
-### `npm start`
+The objective of this project was to understand and show practical example of the uses of hooks in React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Hooks
+- React
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# How to use it
 
-### `npm run build`
+This is just an imformational repo, so each commit is dedicated to a functionality of one hook. Check the commit history to see all the topics covered
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the application locally you will need to follow several steps to make it work.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+First, you have to check if you have **nodejs** installed on your machine. For this type the following command in your terminal:
 
-### `npm run eject`
+> node -v
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If **command not found** shows as a response, then go to [nodejs.org](https://nodejs.org/en/) and follow the instructions to install it. After completing the installation the same command should show you a version number.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Then clone the [repository](https://github.com/mateomh/TasklistTypescript.git) into your local drive and open a terminal in the root folder of the project and install the necessary packages to make it work by running this command:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This will get the project ready to run. After this run the following command to start the development server on **localhost:3000/** and wait for the browser to open:
 
-## Learn More
+> npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If the browser does not open or you close it by accident, but the server is still running you can type **localhost:3000/** in your address bar to get into the application again.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+👤 **Mateo mojica**
 
-### Analyzing the Bundle Size
+- Github: [@mateomh](https://github.com/mateomh)
+- Twitter: [@mateo_m_h](https://twitter.com/mateo_m_h)
+- Linkedin: [Mateo mojica](https://linkedin.com/mateo_mojica_hernandez)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions, issues, and feature requests are welcome!
 
-### Advanced Configuration
+Feel free to check the [issues page](issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Show your support
 
-### Deployment
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgments
 
-### `npm run build` fails to minify
+- [Roadside Coder](https://www.youtube.com/c/RoadsideCoder)
+- [FreeCodeCamp](https://www.freecodecamp.org/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
